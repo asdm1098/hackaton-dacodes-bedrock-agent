@@ -52,6 +52,16 @@ pip install -r requirements.txt
 ### Configurar .env
 Renombrar el archivo `.env.example` a `.env`
 
+## 🔑 Acceso para Revisores (Hackathon)
+
+**Importante**: Este proyecto utiliza un agente Bedrock configurado específicamente para la hackathon.
+
+Para revisores del proyecto:
+1. Use las credenciales proporcionadas en `.env.example`
+2. Estas credenciales tienen acceso controlado al agente Bedrock con ID: `BHQCYAZXTB`
+3. Las credenciales son temporales y solo funcionarán durante el período de evaluación
+4. No se requiere configuración adicional de permisos entre cuentas
+
 ## ▶️ Ejecución
 ### Iniciar el servidor
 uvicorn app:app --reload --port 8000
