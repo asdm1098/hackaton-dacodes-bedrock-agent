@@ -44,13 +44,14 @@ cd bedrock_agent
 python -m venv .venv
 source .venv/bin/activate   # Linux/Mac
 .venv\Scripts\activate      # Windows
-
 ### Instalar dependencias
 pip install -r requirements.txt
 
 
 ### Configurar .env
 Renombrar el archivo `.env.example` a `.env`
+AWS_ACCESS_KEY_ID=  "enviadas por correo"
+AWS_SECRET_ACCESS_KEY=4 "enviadas por correo"
 
 ## 🔑 Acceso para Revisores (Hackathon)
 
