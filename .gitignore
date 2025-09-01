@@ -1,0 +1,53 @@
+# Archivos de entorno y credenciales
+.env
+.env.*
+!.env.example
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Archivos de conversaciones (datos de usuario)
+conversations/
+
+# Archivos de logs
+*.log
+
+# Archivos de entorno virtual
+venv/
+env/
+ENV/
+
+# Archivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*~
